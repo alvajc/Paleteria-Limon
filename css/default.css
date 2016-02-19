@@ -1,7 +1,7 @@
 .mainJumbotron {
   background-image: url(../images/limes.jpg);
   background-size: cover;
-  height: 550px;
+  height: 500px;
 }
 
 .mainTitle {
@@ -14,4 +14,9 @@
   font-size: 20vw;
   font-family: 'Mr Dafoe', cursive;
   margin-top: -20px;
+}
+
+.skippy {
+  color: #30B300;
+  font-size: 7vw;
 }

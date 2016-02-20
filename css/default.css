@@ -1,7 +1,18 @@
+.navImage {
+  height: 50px;
+  width: 50px;
+  margin-top: -15px;
+}
+
+.navbar {
+  background-color: white;
+}
+
 .mainJumbotron {
   background-image: url(../images/limes.jpg);
   background-size: cover;
   height: 500px;
+  margin-top: -5px;
 }
 
 .mainTitle {
@@ -16,7 +27,11 @@
   margin-top: -20px;
 }
 
-.skippy {
+.featureText {
   color: #30B300;
   font-size: 7vw;
+}
+
+.featureImage {
+  width: 300px;
 }

@@ -5,33 +5,53 @@
 }
 
 .navbar {
-  background-color: white;
+  background-color: #0C7A00;
 }
 
 .mainJumbotron {
-  background-image: url(../images/limes.jpg);
+  background-image: url(../images/lemonlime.jpg);
   background-size: cover;
-  height: 500px;
+  height: 1000px;
   margin-top: -5px;
 }
 
 .mainTitle {
-  color: white;
-  font-size: 8vw;
+  color: #0C7A00;
+  font-size: 6vw;
+  margin-top: 50px;
 }
 
 #mainTitleLimon {
-  color: white;
-  font-size: 20vw;
+  color: #0C7A00;
+  font-size: 17vw;
   font-family: 'Mr Dafoe', cursive;
   margin-top: -20px;
 }
 
 .featureText {
-  color: #30B300;
-  font-size: 7vw;
+  color: #0C7A00;
+  font-size: 70px;
+  margin-bottom: 60px;
+  
 }
 
 .featureImage {
   width: 300px;
+}
+
+.paletaJumbotron {
+  background-image: url(../images/popsicleSticks.jpeg);
+  background-size: cover;
+  height: 500px;
+}
+
+.paletaMain {
+  margin-top: 280px;
+  font-size: 70px;
+}
+
+.paletaButton {
+  background-color: #0C7A00;
+  color: white;
+  margin-top: 30px;
 }

@@ -13,7 +13,7 @@
 }
 
 .mainJumbotron {
-  background-image: url(../images/lemonlime.jpg);
+  background-image: url(/images/lemonlime.jpg);
   background-size: cover;
   height: 1000px;
   margin-top: -5px;
@@ -44,7 +44,7 @@
 }
 
 .paletaJumbotron {
-  background-image: url(../images/popsicleSticks.jpeg);
+  background-image: url(/images/popsicleSticks.jpeg);
   background-size: cover;
   height: 500px;
 }

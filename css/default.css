@@ -19,6 +19,12 @@
   margin-top: -5px;
 }
 
+.Button {
+  background-color: #0C7A00;
+  color: white;
+  margin-top: 30px;
+}
+
 .mainTitle {
   color: #0C7A00;
   font-size: 6vw;
@@ -54,7 +60,7 @@
   font-size: 70px;
 }
 
-.paletaButton {
+#paletaButton {
   background-color: #0C7A00;
   color: white;
   margin-top: 30px;

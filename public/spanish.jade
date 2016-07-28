@@ -1,0 +1,46 @@
+doctype html
+html(ng-app='store')
+  head
+    title Paleteria Limon
+    link(href='https://fonts.googleapis.com/css?family=Mr+Dafoe', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css')
+    link(rel='stylesheet', href='../css/default.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href='#')
+            img.navImage(src='../images/navLemon.png')
+        h4.text-center.hoursOpen Horario Hoy: 11am - 7pm
+    // Main Jumbotron
+    .jumbotron.mainJumbotron
+      .container
+        .row
+          .col-md-12.text-center
+            h2.mainTitle PALETERIA
+        .row
+          .col-md-12.text-center
+            h1#mainTitleLimon Limon
+    // Store Features
+    .container
+      .row
+        .col-md-12.text-center
+          h1.featureText Pruebe nuestras deliciosas
+    // Paleta Jumbotron
+    #toggle.jumbotron.paletaJumbotron
+      .container
+        .row
+          .col-md-12.text-center
+            h1.paletaMain PALETAS
+            button#paletaButton.btn.btn-default.btn-lg(type='button') SABORES
+    // Ice Cream Jumbotron
+    .jumbotron.iceCreamJumbotron
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js')
+    script(src='//code.jquery.com/jquery-2.1.4.min.js')
+    script(src='//code.jquery.com/ui/1.11.4/jquery-ui.js')
+    script(src='../js/product.js')
+    script(src='../js/app.js')
+    script(src='../js/default.js')

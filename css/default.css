@@ -5,7 +5,11 @@
 }
 
 .navbar {
-  background-color: #0C7A00;
+  background-color: #74B007;
+}
+#navtext {
+  color: white;
+  font-size: 20px;
 }
 
 .hoursOpen {
@@ -20,26 +24,26 @@
 }
 
 .Button {
-  background-color: #0C7A00;
+  background-color: #74B007;
   color: white;
   margin-top: 30px;
 }
 
 .mainTitle {
-  color: #0C7A00;
+  color: #74B007;
   font-size: 6vw;
   margin-top: 50px;
 }
 
 #mainTitleLimon {
-  color: #0C7A00;
+  color: #74B007;
   font-size: 17vw;
   font-family: 'Mr Dafoe', cursive;
   margin-top: -20px;
 }
 
 .featureText {
-  color: #0C7A00;
+  color: #74B007;
   font-size: 70px;
   margin-bottom: 60px;
   
@@ -61,7 +65,7 @@
 }
 
 #paletaButton {
-  background-color: #0C7A00;
+  background-color: #74B007;
   color: white;
   margin-top: 30px;
 }

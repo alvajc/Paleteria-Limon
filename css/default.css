@@ -11,9 +11,9 @@
   color: white;
   font-size: 20px;
 }
-
-.hoursOpen {
+.social-icons {
   color: white;
+  display: inline-block !important;
 }
 
 .mainJumbotron {

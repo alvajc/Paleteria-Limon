@@ -3,11 +3,14 @@ html(ng-app='store')
   head
     title Paleteria Limon
     link(href='https://fonts.googleapis.com/css?family=Mr+Dafoe', rel='stylesheet', type='text/css')
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
     link(rel='stylesheet', href='../css/default.css')
+    script(src='https://use.fontawesome.com/62e7e9ea00.js')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
   body
+
+    // NavBar
+
     nav.navbar.navbar-default(role='navigation')
       .container-fluid
         .navbar-header
@@ -23,15 +26,29 @@ html(ng-app='store')
         .collapse.navbar-collapse#bs-example-navbar-collapse-1
           ul.nav.navbar-nav
             li
-              a#navtext(href='') Ice Cream Bars
+              a#navtext(href='').text-center Ice Cream Bars
             li
-              a#navtext(href='') Fruit Bars
+              a#navtext(href='').text-center  Fruit Bars
             li
-              a#navtext(href='') Ice Cream
+              a#navtext(href='').text-center  Ice Cream
             li
-              a#navtext(href='') Raspados
+              a#navtext(href='').text-center  Raspados
             li
-              a#navtext(href='') Skippy
+              a#navtext(href='').text-center  Skippy
+
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='https://www.facebook.com/paleterialimon/')
+                i.fa.fa-facebook-square.fa-2x.social-icons
+            li
+              a(href='')
+                i.fa.fa-instagram.fa-2x.social-icons
+            li
+              a(href='https://twitter.com/paleterialimon')
+                i.fa.fa-twitter-square.fa-2x.social-icons
+            li
+              a(href='https://www.yelp.com/biz/paleteria-limon-maywood-2')
+                i.fa.fa-yelp.fa-2x.social-icons
     
 
     // Main Jumbotron

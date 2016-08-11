@@ -12,8 +12,8 @@
   font-size: 20px;
 }
 .social-icons {
-  color: white;
-  display: inline-block !important;
+  margin: 0px 10px 0 10px;
+  color: #74B007;
 }
 
 .mainJumbotron {
@@ -22,7 +22,10 @@
   height: 1000px;
   margin-top: -5px;
 }
-
+.infoJumbotron {
+  background-color: white;
+  height: 400px;
+}
 .Button {
   background-color: #74B007;
   color: white;
@@ -32,14 +35,14 @@
 .mainTitle {
   color: #74B007;
   font-size: 6vw;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #mainTitleLimon {
   color: #74B007;
   font-size: 17vw;
   font-family: 'Mr Dafoe', cursive;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .featureText {

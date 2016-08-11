@@ -36,29 +36,43 @@ html(ng-app='store')
             li
               a#navtext(href='').text-center  Skippy
 
-          ul.nav.navbar-nav.navbar-right
-            li
-              a(href='https://www.facebook.com/paleterialimon/')
-                i.fa.fa-facebook-square.fa-2x.social-icons
-            li
-              a(href='')
-                i.fa.fa-instagram.fa-2x.social-icons
-            li
-              a(href='https://twitter.com/paleterialimon')
-                i.fa.fa-twitter-square.fa-2x.social-icons
-            li
-              a(href='https://www.yelp.com/biz/paleteria-limon-maywood-2')
-                i.fa.fa-yelp.fa-2x.social-icons
-    
-
     // Main Jumbotron
     .jumbotron.mainJumbotron
-      .container
+      .container-fluid
+        .row
+          .col-md-3.col-md-offset-9.col-sm-12.text-center
+            //- ul.nav.navbar-nav.navbar-right
+            //- li
+            a(href='https://www.facebook.com/paleterialimon/')
+              i.fa.fa-facebook-square.fa-3x.social-icons
+            a(href='')
+              i.fa.fa-instagram.fa-3x.social-icons
+            a(href='https://twitter.com/paleterialimon')
+              i.fa.fa-twitter-square.fa-3x.social-icons
+            a(href='https://www.yelp.com/biz/paleteria-limon-maywood-2')
+              i.fa.fa-yelp.fa-3x.social-icons
+    
         .row
           .col-md-12.text-center
             h2.mainTitle PALETERIA
           .col-md-12.text-center
             h1#mainTitleLimon Limon
+
+    // Store Info
+
+    .jumbotron.infoJumbotron
+      .container
+        .row
+          .col-md-4.col-sm-12.text-center
+            i.fa.fa-clock-o.fa-2x  Store Hours
+            p Monday 11am - 8pm
+            p Tuesday 11am - 8pm
+            p Wednesday 11am - 8pm
+            p Thursday 11am-8pm
+            p Friday 11am - 8pm
+            p Saturday 11am - 8pm
+            p Sunday 11am - 8pm
+    
     // Store Features
 
     .container

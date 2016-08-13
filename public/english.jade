@@ -62,6 +62,14 @@ html(ng-app='store')
       .container
         .row
           .col-md-4.col-sm-12.text-center
+            p.storeInfo  Store Location
+            p 6100 Atlantic Blvd 
+            p Suite D
+            p Maywood, CA 90270
+            br
+            p.storeInfo  Phone
+            p (323) 773-8806
+          .col-md-4.col-sm-12.text-center
             p.storeInfo  Store Hours
             p Monday 11am - 8pm
             p Tuesday 11am - 8pm
@@ -70,14 +78,9 @@ html(ng-app='store')
             p Friday 11am - 8pm
             p Saturday 11am - 8pm
             p Sunday 11am - 7:30pm
-          .col-md-4.col-sm-12.text-center
-            p.storeInfo  Store Location
-            p 6100 Atlantic Blvd 
-            p Suite D
-            p Maywood, CA 90270
-            br
-            p.storeInfo  Phone
-            p (323) 773-8806 
+          .col-md-4.col-sm-12
+            .embed-responsive.embed-responsive-16by9
+              .col-md-4.col-sm-12.embed-responsive-item#storeMap
     
     // Store Features
 

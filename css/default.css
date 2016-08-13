@@ -24,7 +24,7 @@
 }
 .infoJumbotron {
   background-color: white;
-  height: 400px;
+  background-size: cover;
 }
 .Button {
   background-color: #74B007;

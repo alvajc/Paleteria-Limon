@@ -77,3 +77,7 @@
   background-image: url(/images/iceCreamCones.jpg);
   height: 500px;
 }
+.storeInfo {
+  font-weight: bold !important;
+  text-decoration: underline !important; 
+}

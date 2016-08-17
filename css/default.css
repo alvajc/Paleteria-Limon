@@ -5,10 +5,10 @@
 }
 
 .navbar {
-  background-color: #74B007;
+  background-color: white;
 }
 #navtext {
-  color: white;
+  color: #74B007;
   font-size: 20px;
 }
 .social-icons {

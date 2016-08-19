@@ -79,8 +79,14 @@
 #storeMap {
   height: 300px;
 }
-.menuJumbotron {
+.iceCreamBarJumbotron {
+  background-image: url(/images/paletaLeche.jpg);
+}
+.fruitBarJumbotron {
   background-image: url(/images/paletaFreezer.jpg);
+}
+.iceCreamJumbotron {
+  background-image: url(/images/iceCream.jpg);
 }
 #menuHeaders {
   color: white;

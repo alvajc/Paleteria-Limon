@@ -10,6 +10,10 @@ app.get('/public/english.html', function(req, res) {
   res.render(__dirname + '/public/english.jade');
 });
 
+app.get('/public/menuEnglish.html', function(req, res) {
+  res.render(__dirname + '/public/menuEnglish.jade');
+});
+
 app.get('/', function(req, res) {
   res.render(__dirname + '/index.jade');
 });

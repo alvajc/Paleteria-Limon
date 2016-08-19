@@ -72,15 +72,19 @@
   color: white;
   margin-top: 30px;
 }
-
-.iceCreamJumbotron {
-  background-image: url(/images/iceCreamCones.jpg);
-  height: 500px;
-}
 .storeInfo {
   font-weight: bold !important;
   text-decoration: underline !important; 
 }
 #storeMap {
   height: 300px;
+}
+.menuJumbotron {
+  background-image: url(/images/paletaFreezer.jpg);
+}
+#menuHeaders {
+  color: white;
+}
+.products {
+  font-size: 20px;
 }

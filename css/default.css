@@ -18,12 +18,13 @@
 
 .mainJumbotron {
   background-color: white;
-  margin-top: -5px;
+  background-size: cover;
 }
 #logo {
+  margin-top: -100px;
 }
 .infoJumbotron {
-  background-color: white;
+  background-color: #009444;
   background-size: cover;
 }
 .Button {

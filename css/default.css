@@ -22,6 +22,9 @@
 }
 #logo {
   margin-top: -100px;
+  margin-bottom: -200px;
+  height: 700px;
+  width: 1400px;
 }
 #logoEnglish{
   margin-top: -200px;
@@ -43,7 +46,6 @@
 .Button {
   background-color: #009444;
   color: white;
-  margin-top: 30px;
 }
 
 .mainTitle {

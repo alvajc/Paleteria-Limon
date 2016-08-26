@@ -23,6 +23,19 @@
 #logo {
   margin-top: -100px;
 }
+#logoEnglish{
+  margin-top: -200px;
+}
+@media screen and (max-width: 468px) {
+   #logoEnglish{
+    margin-top: -70px;
+   }
+}
+@media (min-width: 468px) and (max-width: 991px) {
+   #logoEnglish{
+    margin-top: -100px;
+   }
+}
 .infoJumbotron {
   background-color: #009444;
   background-size: cover;

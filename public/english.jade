@@ -59,26 +59,26 @@ html(ng-app='store')
     .jumbotron.infoJumbotron
       .container
         .row
-          .col-md-4.col-sm-12.text-center
-            p.storeInfo  Store Location
-            p 6100 Atlantic Blvd 
-            p Suite D
-            p Maywood, CA 90270
+          .col-md-3.col-sm-12.text-center
+            p.storeInfoHeader  Store Hours
+            p.storeInfo Monday 11am - 8pm
+            p.storeInfo Tuesday 11am - 8pm
+            p.storeInfo Wednesday 11am - 8pm
+            p.storeInfo Thursday 11am-8pm
+            p.storeInfo Friday 11am - 8pm
+            p.storeInfo Saturday 11am - 8pm
+            p.storeInfo Sunday 11am - 7:30pm
+          .col-md-3.col-sm-12.text-center
+            p.storeInfoHeader  Store Address
+            p.storeInfo 6100 Atlantic Blvd 
+            p.storeInfo Suite D
+            p.storeInfo Maywood, CA 90270
             br
-            p.storeInfo  Phone
-            p (323) 773-8806
-          .col-md-4.col-sm-12.text-center
-            p.storeInfo  Store Hours
-            p Monday 11am - 8pm
-            p Tuesday 11am - 8pm
-            p Wednesday 11am - 8pm
-            p Thursday 11am-8pm
-            p Friday 11am - 8pm
-            p Saturday 11am - 8pm
-            p Sunday 11am - 7:30pm
-          .col-md-4.col-sm-12
+            p.storeInfoHeader  Phone
+            p.storeInfo (323) 773-8806
+          .col-md-6.col-sm-12
             .embed-responsive.embed-responsive-16by9
-              .col-md-4.col-sm-12.embed-responsive-item#storeMap
+              .col-md-4.col-sm-12.embed-responsive-item#map
     
 
 
@@ -88,3 +88,4 @@ html(ng-app='store')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
     script(src='../js/app.js')
     script(src='../js/default.js')
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDeex4WsPTjCxYEED4nmyXqxb7KCmxOndQ&callback=initMap')   

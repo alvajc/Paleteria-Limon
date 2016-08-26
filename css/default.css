@@ -22,9 +22,33 @@
 }
 #logo {
   margin-top: -100px;
-  margin-bottom: -200px;
+  margin-bottom: -100px;
   height: 700px;
   width: 1400px;
+}
+@media (min-width: 1428px) and (max-width: 2560px) {
+   #logo {
+    height: 1400px;
+    width: 2800px;
+  }
+}
+@media (max-width: 568px) {
+   #logo {
+    margin-bottom: -230px;
+    margin-top: -150px;
+ }
+}
+.landingButton {
+  background-color: #009444;
+  color: white;
+}
+
+@media (max-width: 736px) {
+   #landingPageButtonEnglish {
+    margin-top: 30px;
+    background-color: #009444;
+    color: white;
+  }
 }
 #logoEnglish{
   margin-top: -200px;
@@ -43,11 +67,6 @@
   background-color: #009444;
   background-size: cover;
 }
-.Button {
-  background-color: #009444;
-  color: white;
-}
-
 .mainTitle {
   color: #009444;
   font-size: 6vw;
@@ -95,8 +114,13 @@
 #storeMap {
   height: 300px;
 }
+
+/*Menu Page*/
+
+
 .iceCreamBarJumbotron {
-  background-image: url(/images/paletaLeche.jpg);
+  background-image: url(/images/popsicleSticks.jpeg);
+  background-size: cover;
 }
 .fruitBarJumbotron {
   background-image: url(/images/paletaFreezer.jpg);
@@ -105,7 +129,7 @@
   background-image: url(/images/iceCream.jpg);
 }
 #menuHeaders {
-  color: white;
+  color: #009444;
 }
 .products {
   font-size: 20px;

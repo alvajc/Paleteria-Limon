@@ -26,7 +26,7 @@
   height: 700px;
   width: 1400px;
 }
-@media (min-width: 1428px) and (max-width: 2560px) {
+@media (min-width: 1428px) and (max-width: 3000px) {
    #logo {
     height: 1400px;
     width: 2800px;

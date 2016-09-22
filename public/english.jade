@@ -33,16 +33,17 @@ html(ng-app='store')
               a#navtext(href='#followUs').text-center  Follow Us
 
     // Main Jumbotron
-    .jumbotron.mainJumbotron
+    .jumbotron.mainJumbotron#menu
       .container
         .row
           .col-md-12.center-block
             img#logoEnglish.img-responsive(src='../images/Artboard 2.svg')
     // Menu
-
+    .jumbotron.menuHeader
+      .container 
+        .row
+          h1.text-center#menuHeaderText Menu
     .container
-      .row
-        h1.text-center#menu Menu
       .row
         .col-md-4.col-md-offset-4
           img.img-responsive.center-block.productHeader.headers(src='../images/IceCreamBarsHeader@2x.png')
@@ -81,7 +82,7 @@ html(ng-app='store')
           p.products Cucumber w/ Chile
           p.products Mango
           p.products Hibiscus
-          p.products Passion Fruit/Strawberry
+          p.products Passion Fruit w/ Strawberry
           p.products Passion Fruit
           p.products Watermelon
           p.products Pineapple
@@ -117,7 +118,7 @@ html(ng-app='store')
             p.products Lemon
         .col-md-4.col-sm-12.text-center
             p.products Vanilla
-            p.products Nuez
+            p.products Pecan
             p.products Coconut Pineapple
             p.products Caramel
             p.products Mocha Almond Fudge
@@ -162,15 +163,34 @@ html(ng-app='store')
             p.products Pineapple
             p.products Strawberry
             p.products Lemon
-
+    .container
+      .row
+        .col-md-4.col-md-offset-4
+          img.img-responsive.center-block.productHeader.headers(src='../images/otherGoodiesHeader@2x.png')
+      .row
+        
+        .col-md-4.col-md-offset-2.col-sm-12.text-center
+          p.products Frozen Bananas
+          p.products Fruit w/ Cream
+          p.products Strawberries w/ Cream
+          p.products Nachos
+          p.products Smoothies 
+          p.products Iced Coffee
+        .col-md-4.col-sm-12.text-center
+          p.products Corn in a Cup
+          p.products Tostilocos
+          p.products Corn Tamales
+          p.products Hot Cheetos w/ Cheese
+          p.products Milkshakes
+          p.products Candy & Drinks
 
     // Store Info
 
-    .jumbotron.infoJumbotron
+    .jumbotron.infoJumbotron#contactUs
       .container
         .row
           .col-md-12.col-sm-12
-            h2.contactUsHeader.text-center#contactUs Contact Us
+            h2.contactUsHeader.text-center Contact Us
         .row
           .col-md-3.col-sm-12.text-center
             p.storeInfoHeader  Store Hours
@@ -208,15 +228,16 @@ html(ng-app='store')
             i.fa.fa-twitter-square.fa-3x.social-icons
           a(href='https://www.yelp.com/biz/paleteria-limon-maywood-2')
             i.fa.fa-yelp.fa-3x.social-icons
+      .row
+        .col-md-12.pull-left
+          p.design Website Built By: JC Dev Shop
     
     // Footer
     
     nav.navbar.navbar-default.footer
-      .container
-        .row
-          .col-md-12.pull-left
-            p.design Website By: JC Designs
-    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js')
+        
+
+
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
     script(src='//code.jquery.com/ui/1.11.4/jquery-ui.js')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')

@@ -26,26 +26,15 @@ html(ng-app='store')
         .collapse.navbar-collapse#bs-example-navbar-collapse-1
           ul.nav.navbar-nav
             li
-              a#navtext(href='/public/menuEnglish.html').text-center  Menu
+              a#navtext(href='#menu').text-center  Menu
             li
-              a#navtext(href='/public/contact.html').text-center  Contact Us
+              a#navtext(href='#contactUs').text-center  Contact Us
             li
-              a#navtext(href='/public/followUs.html').text-center  Follow Us
+              a#navtext(href='#followUs').text-center  Follow Us
 
     // Main Jumbotron
     .jumbotron.mainJumbotron
       .container
-        //- .row
-        //-   .col-md-3.col-md-offset-9.col-sm-12.text-center
-        //-     a(href='https://www.facebook.com/paleterialimon/')
-        //-       i.fa.fa-facebook-square.fa-3x.social-icons
-        //-     a(href='')
-        //-       i.fa.fa-instagram.fa-3x.social-icons
-        //-     a(href='https://twitter.com/paleterialimon')
-        //-       i.fa.fa-twitter-square.fa-3x.social-icons
-        //-     a(href='https://www.yelp.com/biz/paleteria-limon-maywood-2')
-        //-       i.fa.fa-yelp.fa-3x.social-icons
-    
         .row
           .col-md-12.center-block
             img#logoEnglish.img-responsive(src='../images/Artboard 2.svg')
@@ -53,9 +42,10 @@ html(ng-app='store')
 
     .container
       .row
-        h1.text-center Menu
+        h1.text-center#menu Menu
       .row
-        h2.text-center Ice Cream Bars
+        .col-md-4.col-md-offset-4
+          img.img-responsive.center-block.productHeader.headers(src='../images/IceCreamBarsHeader@2x.png')
       .row
         .col-md-4.col-sm-12.text-center
           p.products Strawberry
@@ -83,7 +73,8 @@ html(ng-app='store')
           p.products Vanilla
     .container
       .row
-        h2.text-center Fruit Bars
+        .col-md-4.col-md-offset-4
+          img.img-responsive.center-block.productHeader.headers(src='../images/FruitBarHeader2x.png')
       .row
         .col-md-4.col-sm-12.text-center
           p.products Melon
@@ -113,7 +104,8 @@ html(ng-app='store')
           p.products Strawberry
     .container
       .row
-        h2.text-center Ice Cream
+        .col-md-4.col-md-offset-4
+          img.img-responsive.center-block.productHeader.headers(src='../images/IceCreamHeader@2x.png')
       .row
         .col-md-4.col-sm-12.text-center
             p.products Chocolate Chip
@@ -140,7 +132,8 @@ html(ng-app='store')
             p.products Bubble Gum
     .container
       .row
-        h2.text-center Raspados
+        .col-md-4.col-md-offset-4
+          img.img-responsive.center-block.productHeader.headers(src='../images/RaspadoHeader@2x.png')
       .row
         .col-md-4.col-md-offset-2.col-sm-12.text-center
             p.products Prune
@@ -157,7 +150,8 @@ html(ng-app='store')
             p.products Cocunut
     .container
       .row
-        h2.text-center Skippy
+        .col-md-4.col-md-offset-4
+          img.img-responsive.center-block.productHeader.headers(src='../images/SkippyHeader@2x.png')
       .row
         .col-md-12.text-center
           h3 (Shaved Ice w/ Chili & Lemon)
@@ -175,10 +169,13 @@ html(ng-app='store')
     .jumbotron.infoJumbotron
       .container
         .row
+          .col-md-12.col-sm-12
+            h2.contactUsHeader.text-center#contactUs Contact Us
+        .row
           .col-md-3.col-sm-12.text-center
             p.storeInfoHeader  Store Hours
             p.storeInfo Monday 11am - 8pm
-            p.storeInfo Tuesday 11am - 8pm
+            p.storeInfo Tuesday CLOSED
             p.storeInfo Wednesday 11am - 8pm
             p.storeInfo Thursday 11am-8pm
             p.storeInfo Friday 11am - 8pm
@@ -195,9 +192,30 @@ html(ng-app='store')
           .col-md-6.col-sm-12
             .embed-responsive.embed-responsive-16by9
               .col-md-4.col-sm-12.embed-responsive-item#map
+    // Follow Us
+
+    .container.followUs
+      .row
+        .col-md-12.col-sm-12
+          h2.text-center.followUsHeader#followUs Follow Us
+      .row
+        .col-md-12.col-sm-12.text-center
+          a(href='https://www.facebook.com/paleterialimon/')
+            i.fa.fa-facebook-square.fa-3x.social-icons
+          //- a(href='')
+          //-   i.fa.fa-instagram.fa-3x.social-icons
+          a(href='https://twitter.com/paleterialimon')
+            i.fa.fa-twitter-square.fa-3x.social-icons
+          a(href='https://www.yelp.com/biz/paleteria-limon-maywood-2')
+            i.fa.fa-yelp.fa-3x.social-icons
     
-
-
+    // Footer
+    
+    nav.navbar.navbar-default.navbar-fixed-bottom.footer
+      .container
+        .row
+          .col-md-12.pull-left
+            p.design Website By: JC Designs
     script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
     script(src='//code.jquery.com/ui/1.11.4/jquery-ui.js')

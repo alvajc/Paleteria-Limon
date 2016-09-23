@@ -14,6 +14,8 @@
 .mainJumbotron {
   background-color: white;
   background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 #logo {
   margin-top: -100px;
@@ -62,6 +64,10 @@
    #logoEnglish{
     margin-top: -40px;
    }
+}
+#paletaPicContainer {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .infoJumbotron {
   background-color: #009444;
@@ -150,7 +156,9 @@
   margin-bottom: 50px;
   margin-top: 50px;
 }
-
+.otherGoodies {
+  margin-bottom: 40px;
+}
 /*Contact Us*/
 
 .contactUsHeader {

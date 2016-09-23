@@ -24,6 +24,6 @@ visitor.pageview('/', function (err) {
     console.log(err);
   } else 
    console.log('Google Analytics Ok');
-})
+});
 var port = process.env.PORT || 3000;
 app.listen(port);

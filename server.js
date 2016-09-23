@@ -19,11 +19,7 @@ app.use(express.static('./'));
 
 app.set('view engine', 'jade');
 
-visitor.pageview('/', function (err) {
-  if (err) {
-    console.log(err);
-  } else 
-   console.log('Google Analytics Ok');
-});
+visitor.pageview('/').send();
+
 var port = process.env.PORT || 3000;
 app.listen(port);

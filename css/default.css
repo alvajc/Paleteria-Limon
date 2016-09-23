@@ -183,6 +183,9 @@
 #map{
   height: 400px;
 }
+.mapBox {
+  padding-left: 0px;
+}
 
 /*Follow Us*/
 

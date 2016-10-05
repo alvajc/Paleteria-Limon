@@ -23,14 +23,14 @@ html
            img.navImage(src='../images/navbarLogo.svg')
 
         // Collect the nav links, forms, and other content for toggling
-        .collapse.navbar-collapse#bs-example-navbar-collapse-1
+        .collapse.navbar-collapse#bs-example-navbar-collapse-1(ng-controller = "navController")
           ul.nav.navbar-nav
             li
-              a#navtext(href='#menu').text-center  Menu
+              a#navtext(href='#menu').text-center  {{menu}}
             li
-              a#navtext(href='#contactUs').text-center  Contact Us
+              a#navtext(href='#contactUs').text-center  {{contact}}
             li
-              a#navtext(href='#followUs').text-center  Follow Us
+              a#navtext(href='#followUs').text-center  {{follow}}
 
     // Main Jumbotron
     .jumbotron.mainJumbotron

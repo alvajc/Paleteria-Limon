@@ -207,3 +207,13 @@
 .design {
   color: #009444;
 }
+
+.closed {
+  background-color: red;
+}
+
+.closedText {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
